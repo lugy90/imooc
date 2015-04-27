@@ -103,13 +103,14 @@ nav form input{
 .main{
 	height: 250px;
 	background-color: #fff;
+	margin-top: 5px;
 
 }
 
 .news{
 	width: 340px;
 	border: 1px solid #e8e8e8;
-	background-color: red;
+
 
 }
 
@@ -128,3 +129,66 @@ nav form input{
 .news, .sidebar, .course{
 	height: 250px;
 }
+
+.title{
+	height: 35px;
+	border-bottom: 2px solid #e8e8e8;
+
+}
+
+.title_left{
+	width: 70%;
+	font-size: 14px;
+	font-weight: bold;
+	color: #786f66;
+	line-height: 35px;
+	padding-left: 20px;
+
+}
+
+.title_right{
+	width: 20%;
+	line-height: 35px;
+}
+
+.pic_news{
+	height: 80px;
+	margin-top: 10px;
+	line-height: 22px
+}
+
+.pic_news img{
+	float: left;
+	margin: 0 5px;
+}
+
+.pic_news a{
+	color: #c00;
+}
+
+.new_list{
+	clear: both;
+	margin-top: 20px;
+}
+
+.new_list li{
+    background: url(../images/list.jpg) no-repeat;
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #ccc; 
+}
+
+.new_list a{
+	color: #000;
+}
+
+.new_list a:hover{
+	color: #f00;
+}
+
+.new_list span{
+	float: right;
+	color: #999;
+}
+
+
