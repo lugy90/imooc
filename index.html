@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>imooc</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<link type="css/text" rel="stylesheet" href="css/main.css" />
+	<link type="css/text" rel="stylesheet" href="css/reset.css" />
+    <script src="js/setHomeSetFav.js" charset="gb2312"></script>
+    <script src="js/jquery-1.4.4.min.js"></script>
+    <script src="js/myfocus-2.0.1.min.js" charset="UTF-8"></script>
+    <script src="js/mf-pattern/mF_fancy.js"></script>
+    <link type="css/text" rel="stylesheet" href="js/mf-pattern/mF_fancy.css" />
+    <script>
+        myFocus.set({
+        	id:'boxID'
+        })
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/PIE.js"></script>
+    <script>
+        $(function() { 
+        if (window.PIE) { 
+        $('.rounded').each(function() { 
+        PIE.attach(this); 
+        }); 
+        } 
+        }); 
+    </script>
+    <![endif]-->
+	
+
+    
+</head>
+<body>
+	<section id="top">
+		<header>
+			<div class="top_content wrap clearfix">
+				<ul>
+					<li><a href="#" onclick="SetHome(window.location)">设为首页</a></li>
+					<li><a href="#" onclick="AddFavorite(window.location, document.title)">加入收藏</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<figure class="wrap clearfix">
+			<div class="logo">
+				<div class="logo_left fl">
+					<img src="images/logo.jpg" alt="慕课网">
+				</div>
+				<div class="logo_right fr">
+					<img src="images/tel.jpg" alt="服务热线"><span>24小时服务热线: <span class="tel">134-364-7863</span></span>
+				</div>
+			</div>
+		</figure>
+
+		<nav class="wrap">
+		    <ul>
+		        <li><a href="#">首页</a></li>
+		        <li><a href="#">关于慕课</a></li>
+		    	<li><a href="#">新闻动态</a></li>
+		    	<li><a href="#">课程中心</a></li>
+		    	<li><a href="#">在线课程</a></li>
+		    	<li><a href="#">人才招聘</a></li>
+		    </ul>
+		    <form action="" method="post" >
+		    	<input type="text">
+		    </form>
+		</nav>
+	</section>
+
+	<div class="ad wrap" id="boxID">
+	    <div class="loading"><img src="images/loading.gif" alt="图片加载中"></div>
+		<div class="pic">
+			<ul>
+				<li><img src="images/ad2.jpg" alt=""></li>
+				<li><img src="images/ad3.jpg" alt=""></li>
+				<li><img src="images/ad4.jpg" alt=""></li>
+			</ul>
+		</div>
+	</div><!-- 广告div结束 -->
+
+	<section class="main wrap clearfix">
+		<div class="news fl"></div>
+		<div class="course fl"></div>
+		<div class="sidebar fl"></div>
+	</section>
+
+</body>
+</html>
