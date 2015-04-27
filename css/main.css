@@ -122,7 +122,6 @@ nav form input{
 
 .sidebar{
 	width: 230px;
-	background-color: green;
 }
 
 .news, .sidebar, .course{
@@ -213,4 +212,20 @@ nav form input{
 	line-height: 37px;
 	margin: 0 15px;
 	text-align: center;
+}
+
+.video{
+	height: 185px;
+	border: 1px solid #e8e8e8;
+}
+
+.video_content{
+	height: 150px;
+
+}
+
+.sidebar_ad{
+	height: 55px;
+	border: 1px solid #e8e8e8;
+    margin-top: 8px;
 }
